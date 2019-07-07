@@ -12,6 +12,7 @@
     "@types/styled-components": "^4.1.16",
     "@types/yup": "^0.26.17",
     "formik": "^1.5.7",
+    "graphql": "^14.4.2",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "react": "latest",
@@ -41,5 +42,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "apollo-boost": "^0.4.3",
+    "apollo-client": "^2.6.3",
+    "graphql-tag": "^2.10.1",
+    "react-apollo": "^2.5.8"
   }
 }
