@@ -6,10 +6,10 @@ import App from "./App";
 import theme from "./theme";
 import { MuiPickersUtilsProvider } from "@material-ui/pickers";
 import MomentUtils from "@date-io/moment";
-import ApolloClient from "apollo-boost";
+import ApolloClient, { gql } from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
 
-const client = new ApolloClient({});
+const client = new ApolloClient({uri: 'http://localhost:4000/graphql'});
 
 ReactDOM.render(
   <ApolloProvider client={client}>

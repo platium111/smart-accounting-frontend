@@ -5,6 +5,7 @@ import Box from "@material-ui/core/Box";
 import Link from "@material-ui/core/Link";
 import ProTip from "./ProTip";
 import AddNewComponent from "./components/AddNewCustomer";
+import Customer from './components/customer/customer'
 
 function MadeWithLove() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
       </Box>
       <Box>
         <AddNewComponent />
+        <Customer />
       </Box>
     </Container>
   );
