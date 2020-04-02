@@ -10,6 +10,7 @@ export const FACEBOOK_ADDRESS = "Địa chỉ Facebook";
 export const FATHER_PHONE = "Số điện thoại bố";
 export const MOTHER_PHONE = "Số điện thoại mẹ";
 export const PROPERTY = "Tài sản thế chấp";
+export const ADD_CUSTOMER = "Thêm khách hàng"
 
 // Property
 export enum PROPERTY_TYPE {

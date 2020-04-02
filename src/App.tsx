@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Link from "@material-ui/core/Link";
 import ProTip from "./ProTip";
-import AddNewComponent from "./components/AddNewCustomer";
+import AddNewComponent from "./components/forms/AddNewCustomer";
 import Customer from './components/customer/customer'
 
 function MadeWithLove() {
