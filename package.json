@@ -14,7 +14,7 @@
     "formik": "^2.1.4",
     "graphql": "^14.4.2",
     "lodash": "^4.17.11",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "react": "latest",
     "react-datepicker": "^2.14.0",
     "react-dom": "latest",
